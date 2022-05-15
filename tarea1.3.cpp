@@ -1,22 +1,22 @@
-/* Autor: Andriks Imanol Ruiz Mart韓ez, Realizado: 03/02/2022 
+/* Autor: Andriks Imanol Ruiz Mart铆nez, Realizado: 03/02/2022 
 Escuela: Universidad del Valle de Mexico Campus Villahermosa
-Materia: Programaci髇 Estructrada
+Materia: Programaci贸n Estructrada
 Ciclo: 01/2022
 
-Este es un programa en Lenguaje C de la materia de Programaci髇 Estructurada
+Este es un programa en Lenguaje C de la materia de Programaci贸n Estructurada
 Muestra el uso de:
 
     -Variables flotantes
     -printf para mostrar mensajes y variables
     -scanf
-    -El uso de include para las librer韆s
-    -uso de la librer韆 math.h
-    -Comentarios para la documentaci髇 interna del programa
+    -El uso de include para las librer铆as
+    -uso de la librer铆a math.h
+    -Comentarios para la documentaci贸n interna del programa
 */
 #include<stdio.h>
 #include<math.h>
 int main(){
-	//Declaraci髇 de variables
+	//Declaraci贸n de variables
 	float r, n, a;
 	//Entrada de datos
 	printf("Introduce el radio del sector circular: ");
@@ -27,6 +27,5 @@ int main(){
 	a=M_PI*pow(r,2)*(n)/360;
 	//Salida
 	printf("El area del sector circular es %f", a);
-	
 	return 0;
 }
